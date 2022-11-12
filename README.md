@@ -1,5 +1,5 @@
-# TSP-solver-RL
-Solve TSP using reinforcement learning
+# ACAP-solver-RL
+Solve ACAP using reinforcement learning
 
 Implementation of two papers
 

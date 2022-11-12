@@ -15,11 +15,11 @@ from tsp_heuristic import get_ref_reward
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--model_type", type=str, default="rnn")
+parser.add_argument("--model_type", type=str, default="att")
 parser.add_argument("--seq_len", type=int, default=30)
 parser.add_argument("--num_epochs", type=int, default=100)
-parser.add_argument("--num_tr_dataset", type=int, default=10000)
-parser.add_argument("--num_te_dataset", type=int, default=2000)
+parser.add_argument("--num_tr_dataset", type=int, default=100) # TODO should be 10000
+parser.add_argument("--num_te_dataset", type=int, default=20) # TODO should be 20
 parser.add_argument("--embedding_size", type=int, default=128)
 parser.add_argument("--hidden_size", type=int, default=128)
 parser.add_argument("--batch_size", type=int, default=64)
